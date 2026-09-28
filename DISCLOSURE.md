@@ -3,6 +3,7 @@ As stated by the assignment requirements, parts of this project were generated w
 The following prompts were used:
 * Create a C++ program to analyze text line by line and determine if there is a valid IPv4 contained within.
 * Create and validate test cases for the file you just created.
+* Create a flow where a user can enter a line in which an IPv4 address can be extracted. Ensure they can end the program by typing 'END'. Continue this behavior till they type 'END'
 
-Both `main.cpp` and `test.cpp` were generated with Junie. `test_input.txt` was also generated with Junie.
+Both `main.cpp` and `test.cpp` were generated with Junie (using Gemini 3.7 Flash). `test_input.txt` was also generated with Junie.
 As the project developer, I have read through and understood each line of code in all 3 of those files. Both DISCLOSURE.md (this file) and README.md) were fully written by me.

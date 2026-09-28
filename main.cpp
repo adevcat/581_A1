@@ -8,6 +8,9 @@ int main() {
     size_t lineNumber = 1;
 
     while (std::getline(std::cin, line)) {
+        if (line == "END") {
+            break;
+        }
         std::vector<std::string> foundIPs;
         if (containsValidIPv4(line, foundIPs)) {
             std::cout << "Line " << lineNumber << ": Valid IPv4 found -> ";
