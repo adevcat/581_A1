@@ -1,0 +1,30 @@
+# Standard valid IPv4
+192.168.1.1
+
+# Minimum and maximum boundary addresses
+0.0.0.0
+255.255.255.255
+
+# Multiple IP addresses on a single line
+Primary DNS is 8.8.8.8 and secondary DNS is 8.8.4.4.
+
+# Enclosed and formatted IP addresses
+Server located at [10.0.0.50] and backup at (172.16.254.1).
+
+# IP address with port specification and trailing period
+Connecting to 192.168.0.10:8080 and fallback 10.1.1.1.
+
+# Invalid: Octet exceeds 255
+256.0.0.1 and 192.168.1.300
+
+# Invalid: Leading zeros
+01.2.3.4 and 192.168.00.1
+
+# Invalid: Incomplete or extra octets
+192.168.1 and 10.0.0.1.2
+
+# Invalid: Embedded in alphanumeric strings
+User host192.168.1.1node or 10.0.0.1xyz
+
+# Mixed line with valid and invalid addresses
+Ignored 999.999.999.999 but found valid 172.20.10.5 alongside invalid 1.2.3.4.5.
